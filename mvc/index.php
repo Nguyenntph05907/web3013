@@ -27,7 +27,7 @@ switch ($url) {
         break;
     case 'save-add-cate':
         $ctr = new HomeController();
-        $ctr->saveAddcate();
+        $ctr->saveAddCate();
         break;
     case 'san-pham':
         // hiển thị danh sách sản phẩm
