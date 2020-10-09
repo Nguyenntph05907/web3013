@@ -29,6 +29,13 @@ class HomeController extends BaseController{
     {
         echo "Đây là trang chi tiết sản phẩm";
     }
+    public function addForm(){
+        $this->render('categories.add-form');
+    }
+    public function saveAddcate(){
+       $data = $_POST;
+        
+    }
 }
 
 ?>
