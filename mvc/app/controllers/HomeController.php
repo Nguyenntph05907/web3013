@@ -43,12 +43,9 @@ class HomeController extends BaseController{
         header('location: ' . BASE_URL);
         die;
     }
-    public function addForm(){
-        $this->render('categories.add-form');
-    }
-    public function saveAddcate(){
-       $data = $_POST;
-        
+    public function editForm(){
+      
+
     }
 }
 
